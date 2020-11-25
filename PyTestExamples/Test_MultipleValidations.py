@@ -13,7 +13,7 @@ def init_driver():
     yield
     driver.close()
 
-#New Code insert to Test GIT Hub
+#New Code insert to Test PULL Request
 def test_verify_page_title(init_driver):
     actual_title = driver.title
     assert actual_title == "Job Vacancy - Latest Job Openings - Job Search Online - Monster India"
